@@ -1,0 +1,90 @@
+* {
+  /*border: solid 0.5px red;*/
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  letter-spacing:3px;
+}
+.bgg-success {
+  background-color: #b8a07f!important;
+}
+.top{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing:7px;
+  color: rgb(92, 80, 74);
+}
+.navbar-brand img{
+  padding-right: 14px;
+}
+.nav-item{
+  padding: 0px 10px;
+}
+h2 {
+  color: #7c6843;
+  
+}
+h3,h4,h5 {
+  color: #2f705f;
+}
+
+
+.dropdown-menu {
+  color: #ffffff;
+}
+
+.container {
+  padding-top: 80px;
+}
+
+section {
+  padding: 100px;
+}
+section#s1 {
+  background: #e2dbd1;
+}
+section#land {
+  background: #b5d1bb;
+}
+section#water {
+  background: #b5d1bb;
+}
+
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #f90;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+footer{
+  height:120px;
+  line-height:120px;
+  
+}
